@@ -1,0 +1,203 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+App	video-player.hpp	/^      struct App$/;"	s	class:ndn::VideoPlayer
+CONSUMER_CALLBACK_HPP	consumer-callback.hpp	/^#define CONSUMER_CALLBACK_HPP$/;"	d
+CONSUMER_HPP	consumer.hpp	/^#define CONSUMER_HPP$/;"	d
+ConsumerCallback	consumer-callback.cpp	/^  ConsumerCallback::ConsumerCallback()$/;"	f	class:ndn::ConsumerCallback
+ConsumerCallback	consumer-callback.hpp	/^  class ConsumerCallback$/;"	c	namespace:ndn
+Consumer_Need	consumer.hpp	/^  struct Consumer_Need$/;"	s	namespace:ndn
+DataNode	video-player.hpp	/^      struct DataNode$/;"	s	class:ndn::VideoPlayer
+FrameConsumer	consumer.cpp	/^  FrameConsumer::FrameConsumer()$/;"	f	class:ndn::FrameConsumer
+FrameConsumer	consumer.hpp	/^  class FrameConsumer$/;"	c	namespace:ndn
+GstCaps_Duo	video-generator.hpp	/^      struct GstCaps_Duo$/;"	s	class:ndn::VideoGenerator
+GstElement_Duo	video-generator.hpp	/^      struct GstElement_Duo$/;"	s	class:ndn::VideoGenerator
+GstSample_Duo	video-generator.hpp	/^      struct GstSample_Duo$/;"	s	class:ndn::VideoGenerator
+IDENTITY_NAME	consumer.hpp	/^#define IDENTITY_NAME /;"	d
+IDENTITY_NAME	video-generator.hpp	/^#define IDENTITY_NAME /;"	d
+PRODUCER_CALLBACK_HPP	producer-callback.hpp	/^#define PRODUCER_CALLBACK_HPP$/;"	d
+ProducerCallback	producer-callback.cpp	/^  ProducerCallback::ProducerCallback()$/;"	f	class:ndn::ProducerCallback
+ProducerCallback	producer-callback.hpp	/^  class ProducerCallback$/;"	c	namespace:ndn
+Producer_Need	video-generator.hpp	/^      struct Producer_Need$/;"	s	class:ndn::VideoGenerator
+Signer	video-generator.hpp	/^  Signer()$/;"	f	class:ndn::Signer
+Signer	video-generator.hpp	/^  class Signer$/;"	c	namespace:ndn
+VIDEO_FRAME_HPP	video-frame.hpp	/^#define VIDEO_FRAME_HPP$/;"	d
+VIDEO_GENERATOR_HPP	video-generator.hpp	/^#define VIDEO_GENERATOR_HPP$/;"	d
+VIDEO_PLAYER_HPP	video-player.hpp	/^#define VIDEO_PLAYER_HPP$/;"	d
+Verificator	consumer.hpp	/^    Verificator()$/;"	f	class:ndn::Verificator
+Verificator	consumer.hpp	/^  class Verificator$/;"	c	namespace:ndn
+VideoAudio	video-player.hpp	/^      struct VideoAudio$/;"	s	class:ndn::VideoPlayer
+VideoFrame	video-frame.cpp	/^VideoFrame::VideoFrame()$/;"	f	class:VideoFrame
+VideoFrame	video-frame.hpp	/^class VideoFrame$/;"	c
+VideoGenerator	video-generator.cpp	/^  VideoGenerator::VideoGenerator()$/;"	f	class:ndn::VideoGenerator
+VideoGenerator	video-generator.hpp	/^  class VideoGenerator$/;"	c	namespace:ndn
+VideoPlayer	video-player.cpp	/^  VideoPlayer::VideoPlayer()$/;"	f	class:ndn::VideoPlayer
+VideoPlayer	video-player.hpp	/^  class VideoPlayer$/;"	c	namespace:ndn
+a_app	video-player.hpp	/^        App a_app;$/;"	m	struct:ndn::VideoPlayer::VideoAudio
+addSegment	video-frame.cpp	/^VideoFrame::addSegment(ndn::Data& data)$/;"	f	class:VideoFrame
+appsrc	video-player.hpp	/^        GstElement *appsrc;$/;"	m	struct:ndn::VideoPlayer::App
+audio	video-generator.hpp	/^        GstCaps *audio;$/;"	m	struct:ndn::VideoGenerator::GstCaps_Duo
+audio	video-generator.hpp	/^        GstElement *audio;$/;"	m	struct:ndn::VideoGenerator::GstElement_Duo
+audio	video-generator.hpp	/^        GstSample *audio;$/;"	m	struct:ndn::VideoGenerator::GstSample_Duo
+audioConsumeFrames	consumer.cpp	/^  FrameConsumer::audioConsumeFrames(std::string live_prefix, std::string stream_id) {$/;"	f	class:ndn::FrameConsumer
+audio_samplerate	video-player.hpp	/^      int audio_samplerate;$/;"	m	class:ndn::VideoPlayer
+bus_call	video-player.hpp	/^      bus_call (GstBus * bus, GstMessage *msg, GstElement *pipeline)$/;"	f	class:ndn::VideoPlayer
+capstr	video-player.hpp	/^        std::string capstr;$/;"	m	struct:ndn::VideoPlayer::App
+cb	consumer.hpp	/^    ConsumerCallback *cb;$/;"	m	struct:ndn::Consumer_Need
+cb_consumer	consumer.cpp	/^ConsumerCallback cb_consumer;$/;"	m	namespace:ndn	file:
+consume_audio_frame	consumer.cpp	/^  void consume_audio_frame(Consumer* sampleConsumer, Name sampleSuffix) {$/;"	f	namespace:ndn
+consume_audio_thread	consumer.cpp	/^    FrameConsumer::consume_audio_thread(Consumer* sampleConsumer)$/;"	f	class:ndn::FrameConsumer
+consume_video_frame	consumer.cpp	/^  void consume_video_frame(ConsumerCallback* cb_consumer, Consumer* sampleConsumer, Name sampleSuffix) {$/;"	f	namespace:ndn
+consume_video_thread	consumer.cpp	/^    FrameConsumer::consume_video_thread(ConsumerCallback* cb_consumer, Consumer* sampleConsumer)$/;"	f	class:ndn::FrameConsumer
+consume_whole	video-player.cpp	/^  VideoPlayer::consume_whole(Consumer *videoConsumer, Consumer *audioConsumer)$/;"	f	class:ndn::VideoPlayer
+copyContent	video-frame.cpp	/^VideoFrame::copyContent(ndn::shared_ptr<ndn::Data> data)$/;"	f	class:VideoFrame
+data	video-player.hpp	/^        guint8 *data;$/;"	m	struct:ndn::VideoPlayer::DataNode
+dataQue	video-player.hpp	/^        std::deque<DataNode> dataQue;$/;"	m	struct:ndn::VideoPlayer::App
+data_a	consumer-callback.hpp	/^    gsize data_a;$/;"	m	class:ndn::ConsumerCallback
+data_v	consumer-callback.hpp	/^    gsize data_v;$/;"	m	class:ndn::ConsumerCallback
+decoder	video-player.hpp	/^        GstElement *decoder;$/;"	m	struct:ndn::VideoPlayer::App
+eventid	consumer.hpp	/^    EventId eventid;$/;"	m	class:ndn::FrameConsumer
+frame_a	consumer-callback.hpp	/^    VideoFrame *frame_a;$/;"	m	class:ndn::ConsumerCallback
+frame_cnt_a	consumer-callback.hpp	/^    int frame_cnt_a;$/;"	m	class:ndn::ConsumerCallback
+frame_cnt_a_m	consumer-callback.hpp	/^    boost::mutex frame_cnt_a_m;$/;"	m	class:ndn::ConsumerCallback
+frame_cnt_v	consumer-callback.hpp	/^    int frame_cnt_v;$/;"	m	class:ndn::ConsumerCallback
+frame_cnt_v_m	consumer-callback.hpp	/^    boost::mutex frame_cnt_v_m;$/;"	m	class:ndn::ConsumerCallback
+frame_v	consumer-callback.hpp	/^    VideoFrame *frame_v;$/;"	m	class:ndn::ConsumerCallback
+framenumber	consumer.hpp	/^    int framenumber;$/;"	m	class:ndn::FrameConsumer
+generateVideoOnce	video-generator.cpp	/^  VideoGenerator::generateVideoOnce(std::string filename, long &size)$/;"	f	class:ndn::VideoGenerator
+getData	video-frame.cpp	/^VideoFrame::getData(std::vector<uint8_t> &dataVec, int& dataLength)$/;"	f	class:VideoFrame
+get_audio_rate	video-player.cpp	/^  int VideoPlayer::get_audio_rate() {$/;"	f	class:ndn::VideoPlayer
+get_streaminfo	video-player.cpp	/^  VideoPlayer::get_streaminfo(std::string streaminfo)$/;"	f	class:ndn::VideoPlayer
+get_streaminfo_audio	video-player.cpp	/^  VideoPlayer::get_streaminfo_audio(std::string streaminfo)$/;"	f	class:ndn::VideoPlayer
+get_video_rate	video-player.cpp	/^  int VideoPlayer::get_video_rate() {$/;"	f	class:ndn::VideoPlayer
+h264_appsrc_data	video-player.cpp	/^  VideoPlayer::h264_appsrc_data(const uint8_t* buffer, size_t bufferSize )$/;"	f	class:ndn::VideoPlayer
+h264_appsrc_data_audio	video-player.cpp	/^  VideoPlayer::h264_appsrc_data_audio(const uint8_t* buffer, size_t bufferSize )$/;"	f	class:ndn::VideoPlayer
+h264_appsrc_init	video-player.cpp	/^  VideoPlayer::h264_appsrc_init()$/;"	f	class:ndn::VideoPlayer
+h264_capture_thread	video-player.hpp	/^      *h264_capture_thread (void * threadData)$/;"	f	class:ndn::VideoPlayer
+h264_file_info	video-generator.cpp	/^  VideoGenerator::h264_file_info (std::string filename)$/;"	f	class:ndn::VideoGenerator
+h264_generate_capture	video-generator.cpp	/^  VideoGenerator::h264_generate_capture (std::string prefix, std::string stream_id, Producer_Need *pro_video, Producer_Need *pro_audio)$/;"	f	class:ndn::VideoGenerator
+initFrameAudio	consumer-callback.cpp	/^  ConsumerCallback::initFrameAudio() {$/;"	f	class:ndn::ConsumerCallback
+initFrameVideo	consumer-callback.cpp	/^  ConsumerCallback::initFrameVideo() {$/;"	f	class:ndn::ConsumerCallback
+interest_expr	consumer-callback.hpp	/^    gsize interest_expr;$/;"	m	class:ndn::ConsumerCallback
+interest_expr_m	consumer-callback.hpp	/^    boost::mutex interest_expr_m;$/;"	m	class:ndn::ConsumerCallback
+interest_incoming	producer-callback.hpp	/^    unsigned long interest_incoming = 0;$/;"	m	class:ndn::ProducerCallback
+interest_nohit	producer-callback.hpp	/^    unsigned long interest_nohit = 0;$/;"	m	class:ndn::ProducerCallback
+interest_outgoing	producer-callback.hpp	/^    unsigned long interest_outgoing = 0;$/;"	m	class:ndn::ProducerCallback
+interest_r	consumer-callback.hpp	/^    gsize interest_r;$/;"	m	class:ndn::ConsumerCallback
+interest_r_a	consumer-callback.hpp	/^    gsize interest_r_a;$/;"	m	class:ndn::ConsumerCallback
+interest_r_a_m	consumer-callback.hpp	/^    boost::mutex interest_r_a_m;$/;"	m	class:ndn::ConsumerCallback
+interest_r_m	consumer-callback.hpp	/^    boost::mutex interest_r_m;$/;"	m	class:ndn::ConsumerCallback
+interest_r_v	consumer-callback.hpp	/^    gsize interest_r_v;$/;"	m	class:ndn::ConsumerCallback
+interest_r_v_m	consumer-callback.hpp	/^    boost::mutex interest_r_v_m;$/;"	m	class:ndn::ConsumerCallback
+interest_retx	consumer-callback.hpp	/^    gsize interest_retx;$/;"	m	class:ndn::ConsumerCallback
+interest_retx_m	consumer-callback.hpp	/^    boost::mutex interest_retx_m;$/;"	m	class:ndn::ConsumerCallback
+interest_s	consumer-callback.hpp	/^    gsize interest_s;$/;"	m	class:ndn::ConsumerCallback
+interest_s_m	consumer-callback.hpp	/^    boost::mutex interest_s_m;$/;"	m	class:ndn::ConsumerCallback
+interval	consumer.hpp	/^    time::nanoseconds interval;$/;"	m	class:ndn::FrameConsumer
+length	video-player.hpp	/^        gsize length;$/;"	m	struct:ndn::VideoPlayer::DataNode
+m_curnum	producer-callback.hpp	/^    size_t* m_curnum;$/;"	m	class:ndn::ProducerCallback
+m_face	consumer.hpp	/^    shared_ptr<Face> m_face;$/;"	m	class:ndn::FrameConsumer
+m_identityName	video-generator.hpp	/^  Name m_identityName;$/;"	m	class:ndn::Signer
+m_ioService	consumer.hpp	/^    boost::asio::io_service& m_ioService;$/;"	m	class:ndn::FrameConsumer
+m_keyChain	consumer.hpp	/^    KeyChain m_keyChain;$/;"	m	class:ndn::Verificator
+m_keyChain	video-generator.hpp	/^  KeyChain m_keyChain;$/;"	m	class:ndn::Signer
+m_lastReassembledSegment	video-frame.hpp	/^  uint64_t m_lastReassembledSegment;$/;"	m	class:VideoFrame
+m_lastSegment	video-frame.hpp	/^  uint64_t m_lastSegment;$/;"	m	class:VideoFrame
+m_producer	producer-callback.hpp	/^    Producer* m_producer;$/;"	m	class:ndn::ProducerCallback
+m_publicKey	consumer.hpp	/^    shared_ptr<PublicKey> m_publicKey;$/;"	m	class:ndn::Verificator
+m_reassembledData	video-frame.hpp	/^  std::vector<uint8_t> m_reassembledData;$/;"	m	class:VideoFrame
+m_receivedSegments	video-frame.hpp	/^  std::map<uint64_t, ndn::shared_ptr<ndn::Data> > m_receivedSegments;$/;"	m	class:VideoFrame
+m_scheduler	consumer.hpp	/^    Scheduler m_scheduler;$/;"	m	class:ndn::FrameConsumer
+m_streaminfoaudio	producer-callback.hpp	/^    std::string m_streaminfoaudio;$/;"	m	class:ndn::ProducerCallback
+m_streaminfovideo	producer-callback.hpp	/^    std::string m_streaminfovideo;$/;"	m	class:ndn::ProducerCallback
+main	consumer.cpp	/^  main(int argc, char** argv)$/;"	f	namespace:ndn
+main	consumer.cpp	/^main(int argc, char** argv)$/;"	f
+main	producer.cpp	/^  main(int argc, char** argv)$/;"	f	namespace:ndn
+main	producer.cpp	/^main(int argc, char** argv)$/;"	f
+name	video-generator.hpp	/^        std::string name;$/;"	m	struct:ndn::VideoGenerator::Producer_Need
+ndn	consumer-callback.cpp	/^namespace ndn {$/;"	n	file:
+ndn	consumer-callback.hpp	/^namespace ndn {$/;"	n
+ndn	consumer.cpp	/^namespace ndn {$/;"	n	file:
+ndn	consumer.hpp	/^namespace ndn{$/;"	n
+ndn	producer-callback.cpp	/^namespace ndn {$/;"	n	file:
+ndn	producer-callback.hpp	/^namespace ndn {$/;"	n
+ndn	producer.cpp	/^namespace ndn {$/;"	n	file:
+ndn	video-generator.cpp	/^namespace ndn {$/;"	n	file:
+ndn	video-generator.hpp	/^namespace ndn {$/;"	n
+ndn	video-player.cpp	/^namespace ndn {$/;"	n	file:
+ndn	video-player.hpp	/^namespace ndn {$/;"	n
+onExpr	consumer-callback.cpp	/^  ConsumerCallback::onExpr(Consumer& con, Interest& interest)$/;"	f	class:ndn::ConsumerCallback
+onPacket	consumer.hpp	/^    onPacket(Data& data)$/;"	f	class:ndn::Verificator
+onPacket	video-generator.hpp	/^  onPacket(Data& data)$/;"	f	class:ndn::Signer
+onRetx	consumer-callback.cpp	/^  ConsumerCallback::onRetx(Consumer& con, Interest& interest)$/;"	f	class:ndn::ConsumerCallback
+on_pad_added	video-generator.hpp	/^     on_pad_added (GstElement *element, $/;"	f	class:ndn::VideoGenerator
+payload_a	consumer-callback.hpp	/^    gsize payload_a;$/;"	m	class:ndn::ConsumerCallback
+payload_v	consumer-callback.hpp	/^    gsize payload_v;$/;"	m	class:ndn::ConsumerCallback
+playbin_file_info	video-generator.cpp	/^  VideoGenerator::playbin_file_info (std::string filename)$/;"	f	class:ndn::VideoGenerator
+playbin_generate_frames	video-generator.cpp	/^  VideoGenerator::playbin_generate_frames (std::string filename, Producer * producer)$/;"	f	class:ndn::VideoGenerator
+player	consumer-callback.hpp	/^    VideoPlayer player;$/;"	m	class:ndn::ConsumerCallback
+prefix	video-generator.hpp	/^        std::string prefix;$/;"	m	struct:ndn::VideoGenerator::Producer_Need
+pro_audio	producer.cpp	/^  VideoGenerator::Producer_Need pro_audio;$/;"	m	namespace:ndn	file:
+pro_video	producer.cpp	/^  VideoGenerator::Producer_Need pro_video;$/;"	m	namespace:ndn	file:
+processConstData	consumer-callback.cpp	/^  ConsumerCallback::processConstData(Consumer& con, const Data& data)$/;"	f	class:ndn::ConsumerCallback
+processConstData	producer-callback.cpp	/^  ProducerCallback::processConstData(Producer& pro, const Data& data){}$/;"	f	class:ndn::ProducerCallback
+processConstInterest	producer-callback.cpp	/^  ProducerCallback::processConstInterest(Producer& pro, const Interest& interest){}$/;"	f	class:ndn::ProducerCallback
+processData	consumer-callback.cpp	/^  ConsumerCallback::processData(Consumer& con, const Data& data)$/;"	f	class:ndn::ConsumerCallback
+processDataAudio	consumer-callback.cpp	/^  ConsumerCallback::processDataAudio(Consumer& con, const Data& data) {$/;"	f	class:ndn::ConsumerCallback
+processDataVideo	consumer-callback.cpp	/^  ConsumerCallback::processDataVideo(Consumer& con, const Data& data) {$/;"	f	class:ndn::ConsumerCallback
+processFile	consumer-callback.hpp	/^    processFile(Consumer& con, const uint8_t* buffer, size_t bufferSize)$/;"	f	class:ndn::ConsumerCallback
+processIncomingInterest	producer-callback.cpp	/^  ProducerCallback::processIncomingInterest(Producer& pro, const Interest& interest)$/;"	f	class:ndn::ProducerCallback
+processInterest	producer-callback.cpp	/^  ProducerCallback::processInterest(Producer& pro, const Interest& interest)$/;"	f	class:ndn::ProducerCallback
+processLeavingInterest	consumer-callback.cpp	/^  ConsumerCallback::processLeavingInterest(Consumer& con, Interest& interest)$/;"	f	class:ndn::ConsumerCallback
+processLeavingStreaminfo	consumer-callback.cpp	/^  ConsumerCallback::processLeavingStreaminfo(Consumer& con, Interest& interest)$/;"	f	class:ndn::ConsumerCallback
+processOutgoingData	producer-callback.cpp	/^  ProducerCallback::processOutgoingData(Producer& pro, const Data& data)$/;"	f	class:ndn::ProducerCallback
+processOutgoingStreaminfo	producer-callback.cpp	/^  ProducerCallback::processOutgoingStreaminfo(Producer& pro, const Data& data)$/;"	f	class:ndn::ProducerCallback
+processPayload	consumer-callback.cpp	/^  ConsumerCallback::processPayload(Consumer& con, const uint8_t* buffer, size_t bufferSize)$/;"	f	class:ndn::ConsumerCallback
+processPayloadAudio	consumer-callback.cpp	/^  ConsumerCallback::processPayloadAudio(Consumer& con, const uint8_t* buffer, size_t bufferSize)$/;"	f	class:ndn::ConsumerCallback
+processStreaminfo	consumer-callback.cpp	/^  ConsumerCallback::processStreaminfo(Consumer& con, const uint8_t* buffer, size_t bufferSize)$/;"	f	class:ndn::ConsumerCallback
+processStreaminfoAudio	consumer-callback.cpp	/^  ConsumerCallback::processStreaminfoAudio(Consumer& con, const uint8_t* buffer, size_t bufferSize)$/;"	f	class:ndn::ConsumerCallback
+processStreaminfoInterest	producer-callback.cpp	/^  ProducerCallback::processStreaminfoInterest(Producer& pro, const Interest& interest)$/;"	f	class:ndn::ProducerCallback
+produce_thread	video-generator.hpp	/^      *produce_thread (void * threadData)$/;"	f	class:ndn::VideoGenerator
+pushQueueAudio	consumer-callback.cpp	/^  ConsumerCallback::pushQueueAudio() {$/;"	f	class:ndn::ConsumerCallback
+pushQueueVideo	consumer-callback.cpp	/^  ConsumerCallback::pushQueueVideo() {$/;"	f	class:ndn::ConsumerCallback
+queue	video-player.hpp	/^        GstElement *queue;$/;"	m	struct:ndn::VideoPlayer::App
+queue_m	video-player.hpp	/^        boost::mutex queue_m;$/;"	m	struct:ndn::VideoPlayer::App
+rate	video-player.hpp	/^        int rate;$/;"	m	struct:ndn::VideoPlayer::App
+read_data	video-player.hpp	/^      read_data (App * app)$/;"	f	class:ndn::VideoPlayer
+read_video_props	video-generator.hpp	/^      read_video_props (GstCaps *caps)$/;"	f	class:ndn::VideoGenerator
+reassemble	video-frame.cpp	/^VideoFrame::reassemble()$/;"	f	class:VideoFrame
+s_va	video-player.hpp	/^      VideoAudio s_va;$/;"	m	class:ndn::VideoPlayer
+sampleCB	video-generator.hpp	/^        ProducerCallback sampleCB;$/;"	m	struct:ndn::VideoGenerator::Producer_Need
+setProducer	producer-callback.cpp	/^  ProducerCallback::setProducer(Producer* p)$/;"	f	class:ndn::ProducerCallback
+setSampleNumber	producer-callback.cpp	/^  ProducerCallback::setSampleNumber(size_t* n)$/;"	f	class:ndn::ProducerCallback
+setStreaminfoAudio	producer-callback.cpp	/^  ProducerCallback::setStreaminfoAudio(std::string audio)$/;"	f	class:ndn::ProducerCallback
+setStreaminfoVideo	producer-callback.cpp	/^  ProducerCallback::setStreaminfoVideo(std::string video)$/;"	f	class:ndn::ProducerCallback
+sig_int	consumer.cpp	/^static void sig_int(int num)$/;"	f	namespace:ndn
+sig_int	producer.cpp	/^  static void sig_int(int num)$/;"	f	namespace:ndn
+sink	video-generator.hpp	/^        GstElement *sink;$/;"	m	struct:ndn::VideoGenerator::Producer_Need
+sink	video-player.hpp	/^        GstElement *sink;$/;"	m	struct:ndn::VideoPlayer::App
+sourceid	video-player.hpp	/^        guint sourceid;$/;"	m	struct:ndn::VideoPlayer::App
+start_feed	video-player.hpp	/^      start_feed (GstElement * pipeline, guint size, App * app)$/;"	f	class:ndn::VideoPlayer
+start_frame_a	consumer-callback.hpp	/^    gsize start_frame_a;$/;"	m	class:ndn::ConsumerCallback
+start_frame_v	consumer-callback.hpp	/^    gsize start_frame_v;$/;"	m	class:ndn::ConsumerCallback
+stop_feed	video-player.hpp	/^      stop_feed (GstElement * pipeline, App * app)$/;"	f	class:ndn::VideoPlayer
+stream_id	video-generator.hpp	/^        std::string stream_id;$/;"	m	struct:ndn::VideoGenerator::Producer_Need
+streaminfo	video-generator.hpp	/^        std::string streaminfo;$/;"	m	struct:ndn::VideoGenerator::Producer_Need
+streaminfoCB	video-generator.hpp	/^        ProducerCallback streaminfoCB;$/;"	m	struct:ndn::VideoGenerator::Producer_Need
+streaminfoEnter	consumer-callback.cpp	/^  ConsumerCallback::streaminfoEnter(Consumer& con, const Data& data)$/;"	f	class:ndn::ConsumerCallback
+streaminfoEnterAudio	consumer-callback.cpp	/^  ConsumerCallback::streaminfoEnterAudio(Consumer& con, const Data& data)$/;"	f	class:ndn::ConsumerCallback
+throughput	video-generator.hpp	/^        gsize throughput;$/;"	m	struct:ndn::VideoGenerator::Producer_Need
+time_start	consumer.cpp	/^time_t time_start;$/;"	m	namespace:ndn	file:
+time_start	producer.cpp	/^  time_t time_start;$/;"	m	namespace:ndn	file:
+v_app	video-player.hpp	/^        App v_app;$/;"	m	struct:ndn::VideoPlayer::VideoAudio
+verifyData	consumer-callback.cpp	/^  ConsumerCallback::verifyData(Consumer& con, Data& data)$/;"	f	class:ndn::ConsumerCallback
+verifyInterest	producer-callback.cpp	/^  ProducerCallback::verifyInterest(Interest& interest){return true;}$/;"	f	class:ndn::ProducerCallback
+video	video-generator.hpp	/^        GstCaps *video;$/;"	m	struct:ndn::VideoGenerator::GstCaps_Duo
+video	video-generator.hpp	/^        GstElement *video;$/;"	m	struct:ndn::VideoGenerator::GstElement_Duo
+video	video-generator.hpp	/^        GstSample *video;$/;"	m	struct:ndn::VideoGenerator::GstSample_Duo
+videoConsumeFrames	consumer.cpp	/^  FrameConsumer::videoConsumeFrames(std::string live_prefix, std::string stream_id) {$/;"	f	class:ndn::FrameConsumer
+video_rate	video-player.hpp	/^      int video_rate;$/;"	m	class:ndn::VideoPlayer
+~VideoFrame	video-frame.cpp	/^VideoFrame::~VideoFrame()$/;"	f	class:VideoFrame
