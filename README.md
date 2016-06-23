@@ -7,6 +7,9 @@ For license information see LICENSE.
 
 http://named-data.net/
 
+IMPORTANT: This project is now archived, please check out the nearest version of Con/Pro API, NFD, ndn-cxx also repo-ng around Aug 25, 2015 (must before it) with Mac OS 10.10 version. The author wrote code and run the app solely on Mac OS (Gstreamer version is 1.4.3, Mac OS 10.10), the main purpose of this App is to test and help the Con-Pro API evolve, so the multi-platform support is not very good. If run on Ubuntu/other Linux, I believe the Gstreamer version is different, but I don't have time to test it on Ubuntu. Sorry about it.
+
+
 Description
 ----
 
